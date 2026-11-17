@@ -1,0 +1,18 @@
+models/
+ollama_bin
+ollama_store
+ollama_store/
+bin/
+cat <<'EOF' > .gitignore
+models/
+ollama_bin/
+ollama_store/
+lib/
+build/
+dist/
+*.exe
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
